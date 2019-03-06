@@ -60,6 +60,9 @@ man:
 deps:
 	dep ensure -update
 
+# For centos 7
+# yum install ruby-devel -y 
+# gem install ronn 
 prep:
 	go get github.com/golift/unifi
 	go get github.com/naoina/toml
