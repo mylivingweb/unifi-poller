@@ -59,3 +59,11 @@ man:
 
 deps:
 	dep ensure -update
+
+prep:
+	go get github.com/golift/unifi
+	go get github.com/naoina/toml
+	go get github.com/ogier/pflag
+	go get golang.org/x/tools/cmd/goimports
+	go get -u github.com/kisielk/errcheck
+	go get -u golang.org/x/lint/golint
